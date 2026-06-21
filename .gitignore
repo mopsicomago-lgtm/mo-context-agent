@@ -1,0 +1,48 @@
+# Fichiers d'environnement et clés API
+.env
+.env.*
+*.env
+.env.txt
+
+# Secrets et credentials
+secrets.txt
+credentials.json
+api_keys.txt
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+
+# Environnements virtuels
+venv/
+env/
+.venv/
+.env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Node
+node_modules/
+npm-debug.log*
