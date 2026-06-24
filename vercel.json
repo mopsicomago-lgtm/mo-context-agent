@@ -1,17 +1,17 @@
 {
   "version": 2,
  
-  },
+  
   "builds": [
     {
-      "src": "agent.js",
+      "src": "agent-vercel.js"
       "use": "@vercel/node"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "agent.js"
+      "dest": "agent-vercel.js"
     }
   ]
 }
