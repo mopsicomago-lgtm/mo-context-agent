@@ -1,7 +1,6 @@
 {
   "version": 2,
-  "env": {
-    "ANTHROPIC_API_KEY": "@anthropic_api_key"
+ 
   },
   "builds": [
     {
